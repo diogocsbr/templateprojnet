@@ -2,12 +2,15 @@
 <package>
   <metadata>
     <id>didaticos.api</id>
-    <version>1.0.3</version>
+    <version>1.0.5</version>
     <title>Projeto Didáticos Api</title>
     <authors>Diogo Costa</authors>
     <owners>Diogo Costa</owners>
     <description>Template project Didáticos WebApi</description>
-    <releaseNotes>fix name template</releaseNotes>
+    <releaseNotes>Release note 1.0.5:
+    
+    - update short project name to didaticos.api
+    </releaseNotes>
     <repository type="git" url="https://github.com/diogocsbr/templateprojnet.git" />
     <readme>docs\README.md</readme>
     <license type="expression">MIT</license>
@@ -15,6 +18,6 @@
   </metadata>
   <files>
     <file src="..\README.md" target="docs\" />
-    <file src="..\LICENSE" target="docs\" />
+    <file src="LICENSE" target="docs\" />
   </files>
 </package>
