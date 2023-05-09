@@ -24,7 +24,7 @@
       "datatype": "string",
       "defaultValue": "MyProject",
       "replaces": "MyProject",
-      "description": "didaticos.api sample application ASP.NET Core Web API"
+      "description": "didaticos.api sample Application ASP.NET Core Web API"
     }
   }
 }
