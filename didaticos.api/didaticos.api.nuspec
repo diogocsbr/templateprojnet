@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>didaticos.api</id>
+    <version>1.0.1</version>
+    <title>Projeto Didáticos Api</title>
+    <authors>Diogo Costa</authors>
+    <owners>Proprietário do meu pacote NuGet</owners>
+    <description>Template project api</description>
+    <releaseNotes>- building project and testing communication with github and nuget</releaseNotes>
+    <repository type="git" url="https://github.com/diogocsbr/templateprojnet.git" />
+  </metadata>
+</package>
