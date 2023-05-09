@@ -2,10 +2,10 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Diogo Costa",
   "classifications": ["Web", "API"],
-  "name": "Meu template de projeto",
-  "description": "Um template para criar um projeto ASP.NET Core Web API",
-  "identity": "SeuNome.TemplateName",
-  "shortName": "MeuProjeto",
+  "name": "Project didaticos api",
+  "description": "This is a template project ASP.NET Core Web API",
+  "identity": "Didaticos.WebApi",
+  "shortName": "webdidaticosapi",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -24,7 +24,7 @@
       "datatype": "string",
       "defaultValue": "MyProject",
       "replaces": "MyProject",
-      "description": "didaticos.api sample application name"
+      "description": "didaticos.api sample application ASP.NET Core Web API"
     }
   }
 }
