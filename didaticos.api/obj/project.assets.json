@@ -9529,6 +9529,7 @@
       "outputPath": "/Users/diogocsantos/Projetos/templateprojnet/didaticos.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "/Users/diogocsantos/Projetos/templateprojnet/didaticos.api/NuGet.Config",
         "/Users/diogocsantos/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [

@@ -2,14 +2,14 @@
 <package>
   <metadata>
     <id>didaticos.api</id>
-    <version>1.0.5</version>
+    <version>1.0.8</version>
     <title>Projeto Didáticos Api</title>
     <authors>Diogo Costa</authors>
     <owners>Diogo Costa</owners>
     <description>Template project Didáticos WebApi</description>
-    <releaseNotes>Release note 1.0.5:
+    <releaseNotes>Release note 1.0.8:
     
-    - update short project name to didaticos.api
+    - update short project name to didaticos.api fix
     </releaseNotes>
     <repository type="git" url="https://github.com/diogocsbr/templateprojnet.git" />
     <readme>docs\README.md</readme>
