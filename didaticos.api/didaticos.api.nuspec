@@ -9,5 +9,12 @@
     <description>Template project Didáticos WebApi</description>
     <releaseNotes>fix name template</releaseNotes>
     <repository type="git" url="https://github.com/diogocsbr/templateprojnet.git" />
+    <readme>docs\README.md</readme>
+    <license type="expression">MIT</license>
+    <packageLicenseFile>docs\LICENSE</packageLicenseFile>
   </metadata>
+  <files>
+    <file src="..\README.md" target="docs\" />
+    <file src="..\LICENSE" target="docs\" />
+  </files>
 </package>
