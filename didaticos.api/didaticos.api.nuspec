@@ -2,12 +2,12 @@
 <package>
   <metadata>
     <id>didaticos.api</id>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
     <title>Projeto Didáticos Api</title>
     <authors>Diogo Costa</authors>
     <owners>Diogo Costa</owners>
     <description>Template project Didáticos WebApi</description>
-    <releaseNotes>Release note 1.0.9:
+    <releaseNotes>Release note 1.0.10:
     
     - update short project name to didaticos.api fix
     </releaseNotes>
@@ -17,7 +17,7 @@
     <packageLicenseFile>docs\LICENSE</packageLicenseFile>
   </metadata>
   <files>
-    <file src="..\README.md" target="docs\" />
+    <file src="README.md" target="docs\" />
     <file src="LICENSE" target="docs\" />
   </files>
 </package>
