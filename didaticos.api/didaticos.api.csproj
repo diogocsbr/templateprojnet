@@ -6,14 +6,30 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <IsPackable>true</IsPackable>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    
+    <PackageId>didaticos.api</PackageId>
+    <Version>1.0.14</Version>
+
+    <PackageOutputPath>bin\$(Configuration)</PackageOutputPath>
+    <Authors>Diogo Costa</Authors>
+    <Company>Didaticos</Company>
+
+    <PackageFileName>didaticos.api.nupkg</PackageFileName>
+
   </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
 
-    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="didaticos.api.nuspec" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

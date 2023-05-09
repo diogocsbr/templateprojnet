@@ -4,8 +4,8 @@
   "classifications": ["Web", "API"],
   "name": "Project didaticos api",
   "description": "This is a template project ASP.NET Core Web API",
-  "identity": "Didaticos.WebApi",
-  "shortName": "didaticoswebapi",
+  "identity": "didaticos.api",
+  "shortName": "didaticos.api",
   "tags": {
     "language": "C#",
     "type": "project"
