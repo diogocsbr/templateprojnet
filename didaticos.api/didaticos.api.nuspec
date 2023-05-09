@@ -2,12 +2,12 @@
 <package>
   <metadata>
     <id>didaticos.api</id>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
     <title>Projeto Didáticos Api</title>
     <authors>Diogo Costa</authors>
     <owners>Diogo Costa</owners>
     <description>Template project Didáticos WebApi</description>
-    <releaseNotes>Release note 1.0.8:
+    <releaseNotes>Release note 1.0.9:
     
     - update short project name to didaticos.api fix
     </releaseNotes>
