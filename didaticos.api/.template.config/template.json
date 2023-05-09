@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Diogo Costa",
+  "classifications": ["Web", "API"],
+  "name": "Meu template de projeto",
+  "description": "Um template para criar um projeto ASP.NET Core Web API",
+  "identity": "SeuNome.TemplateName",
+  "shortName": "MeuProjeto",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MyProject",
+  "sources": [
+    {
+      "modifiers": ["global"],
+      "rename": "MyProject",
+      "exclude": ["bin/**", "obj/**"]
+    }
+  ],
+  "symbols": {
+    "appName": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "MyProject",
+      "replaces": "MyProject",
+      "description": "didaticos.api sample application name"
+    }
+  }
+}
